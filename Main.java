@@ -4,7 +4,7 @@ public class Main{
         //Main jp = new Main();
         System.out.println(capitalizeWord("hi me"));
     }
-    static char first(String str){
+    /* static char first(String str){
         if(str.length() == 0){
             return ' ';
         }
@@ -12,7 +12,7 @@ public class Main{
             return str.charAt(0);
         } else
         return first(str.substring(1, str.length()));
-    }
+    } */ 
 
     static String capitalizeWord(String s){
         if(s.length() == 0){
